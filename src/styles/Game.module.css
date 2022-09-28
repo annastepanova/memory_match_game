@@ -1,0 +1,62 @@
+.container {
+  position: relative;
+  z-index: 1;
+  height: '200px';
+  width: '200px';
+}
+
+.dialogPaper {
+  min-width: 250px;
+  height: 250px;
+}
+
+.optionsContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+}
+
+@media (max-width:1200px) {
+  .optionsContainer {
+    text-align: center;
+  }
+}
+
+@media (min-width:1201px) {
+  .optionsContainer {
+    text-align: left;
+  }
+  .optionsContainer > div {
+    min-height: 390px;
+  }
+}
+
+.optionsContainer .MuiButton-root {
+  color: '#FFFFFF'
+}
+
+.statsWrapper {
+  padding-top: 16px;
+}
+
+.statsWrapper > span {
+  color: #0e6b0e;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.numOfMatches {
+  padding-bottom: 16px;
+}
+
+.gameWrapper {
+  padding: 24px;
+}
+
+@media (max-width:480px) {
+  .gameWrapper {
+    padding: 8px;
+  }
+}

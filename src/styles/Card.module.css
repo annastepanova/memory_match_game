@@ -1,0 +1,17 @@
+.cardImage {
+  padding: 16px!important;
+}
+
+.cardBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  align-self: center;
+  justify-self: center;
+  max-width: 200px;
+}
+
+.disabled {
+  pointer-events: none;
+}
