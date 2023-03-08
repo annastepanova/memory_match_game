@@ -50,7 +50,7 @@ const Card = ({ id, imageUp, image, launchTimer }) => {
           }}>
           <Image
             alt='card'
-            src={`${process.env.NEXT_PUBLIC_URL}/assets/back.jpg`}
+            src={`${process.env.NEXT_PUBLIC_URL}/images/memory_game/back.jpg`}
             layout="fill"
             objectFit="cover"
             quality={100}
@@ -70,7 +70,7 @@ const Card = ({ id, imageUp, image, launchTimer }) => {
           }}>
           <Image
             alt='card'
-            src={`${process.env.NEXT_PUBLIC_URL}/assets/${image}.png`}
+            src={`${process.env.NEXT_PUBLIC_URL}/images/memory_game/${image}.png`}
             layout="fill"
             objectFit="contain"
             quality={100}
