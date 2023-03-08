@@ -86,7 +86,7 @@ Card.propTypes = {
   id: PropTypes.string.isRequired,
   imageUp: PropTypes.bool.isRequired,
   image: PropTypes.number.isRequired,
-  launchTimer: PropTypes.func.isRequired,
+  launchTimer: PropTypes.func.isRequired
 }
 
 export default Card
